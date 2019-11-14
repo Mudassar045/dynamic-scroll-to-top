@@ -18,6 +18,16 @@ return(<DynamicScrollTop scrollType="smooth" />);
 
 ```
 
+### One liner solution of Above Solution
+
+```js
+// react's hook
+useEffect(() => {
+    window.scroll(0, 0)
+})
+
+```
+
 For more details Visit [Dynamically Scrol to Top - Original](https://medium.com/@vks18765/dynamic-scroll-to-top-in-react-js-with-react-router-dom-and-react-hooks-72f1937a6a86)
 
 Note: Below are the links for more details on `location` and `scroll`
